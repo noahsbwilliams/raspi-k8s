@@ -49,7 +49,6 @@
         append: yes
 
 # Disable swap; otherwise, kubelet won't start
-
   - name: Remove swapfile from /etc/fstab
     mount:
       name: "{{ item }}"
