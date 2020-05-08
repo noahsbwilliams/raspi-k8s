@@ -41,10 +41,12 @@
       notify:
         - docker status
 
+# Add existing ubuntu user to the docker group
     - name: Add ubuntu user to docker group
-      user:
-        name: ubuntu
+      group:
+        name: "{{ ubuntu }}"
         group: docker
+        append: yes
 
 # Disable swap; otherwise, kubelet won't start
 
