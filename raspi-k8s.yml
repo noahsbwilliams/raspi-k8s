@@ -1,5 +1,7 @@
 # Config mostly from https://kubernetes.io/blog/2019/03/15/kubernetes-setup-using-ansible-and-vagrant/
 ---
+
+# Install Docker and related software
 - hosts: all
   become: true
   tasks:
