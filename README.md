@@ -20,6 +20,7 @@ Deploying Kubernetes on Raspberry Pi cluster
 - Processing
 - Memory
 - Connections
+- Electricity
 
 ### Software
 
