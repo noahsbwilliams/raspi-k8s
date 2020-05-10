@@ -17,6 +17,8 @@ Deploying Kubernetes on Raspberry Pi cluster
 ### Computers
 
 - Storage
+  - [x] Internal boot drives (MicroSD cards)
+  - [ ] External storage drives
 - Processing
 - Memory
 - Connections
