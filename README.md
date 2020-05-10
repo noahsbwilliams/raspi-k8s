@@ -20,9 +20,17 @@ Deploying Kubernetes on Raspberry Pi cluster
   - [x] Internal boot drives (MicroSD cards)
   - [ ] External storage drives
 - Processing
+  - [x] Raspberry Pi 4 B+ x4
 - Memory
+  - [x] Internal RAM 16GB
 - Connections
+  - [x] Switch
+  - [x] Cables
+  - [x] Raspi network holepunch
+  - [ ] Router
 - Electricity
+  - [x] POE Switch
+  - [x] Power strip
 
 ### Software
 
