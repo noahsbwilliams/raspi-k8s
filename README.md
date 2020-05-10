@@ -10,3 +10,4 @@ Deploying Kubernetes on Raspberry Pi cluster
 - Setup
   - Stop using the word configure!
 - Maintain
+- Secure
