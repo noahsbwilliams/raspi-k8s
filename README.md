@@ -11,3 +11,12 @@ Deploying Kubernetes on Raspberry Pi cluster
   - Stop using the word configure!
 - Maintain
 - Secure
+
+## Things we might need to make it work
+
+### Computers
+
+- Storage
+- Processing
+- Memory
+- Connections
