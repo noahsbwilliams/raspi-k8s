@@ -36,7 +36,7 @@ Deploying Kubernetes on Raspberry Pi cluster
 
 - Standardization tools
 - Remote command tools
-- Maintenence tools
+- Maintenance tools
 - Storage management tools
 - Firewall buster tools
   - Virtual computers somewhere else
