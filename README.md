@@ -20,3 +20,15 @@ Deploying Kubernetes on Raspberry Pi cluster
 - Processing
 - Memory
 - Connections
+
+### Software
+
+- Standardization tools
+- Remote command tools
+- Maintenence tools
+- Storage management tools
+- Firewall buster tools
+  - Virtual computers somewhere else
+- Security tools
+  - Transport Layer Security
+  - Secret storage
