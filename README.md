@@ -43,3 +43,10 @@ Deploying Kubernetes on Raspberry Pi cluster
 - Security tools
   - Transport Layer Security
   - Secret storage
+
+### Potential Tools (Uncategorized)
+
+- [Ansible Hostname Changer](https://github.com/codylane/ansible-playbook-change-hostname)
+  - [Official Docs](https://docs.ansible.com/ansible/latest/modules/hostname_module.html)
+  - [Changing Hostname the Manual Way](https://www.howtogeek.com/167195/how-to-change-your-raspberry-pi-or-other-linux-devices-hostname/)
+- [Raspberry Pi Dramble](https://github.com/geerlingguy/raspberry-pi-dramble/tree/master/roles)
