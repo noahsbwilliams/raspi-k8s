@@ -49,4 +49,6 @@ Deploying Kubernetes on Raspberry Pi cluster
 - [Ansible Hostname Changer](https://github.com/codylane/ansible-playbook-change-hostname)
   - [Official Docs](https://docs.ansible.com/ansible/latest/modules/hostname_module.html)
   - [Changing Hostname the Manual Way](https://www.howtogeek.com/167195/how-to-change-your-raspberry-pi-or-other-linux-devices-hostname/)
+- [Encrypting secrets](https://www.youtube.com/watch?v=BBTadK3cAww) using Ansible's own Vault (not to be confused with Hashicorp Vault)
+- [Retrieving secrets](https://docs.ansible.com/ansible/latest/plugins/lookup/hashi_vault.html) using Hashicorp Vault
 - [Raspberry Pi Dramble](https://github.com/geerlingguy/raspberry-pi-dramble/tree/master/roles)
