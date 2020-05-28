@@ -54,3 +54,4 @@ Deploying Kubernetes on Raspberry Pi cluster
 - [Retrieving secrets](https://docs.ansible.com/ansible/latest/plugins/lookup/hashi_vault.html) using Hashicorp Vault
 - [Raspberry Pi Dramble](https://github.com/geerlingguy/raspberry-pi-dramble/tree/master/roles)
 - [KubeADM Ansible Repo](https://github.com/kairen/kubeadm-ansible)
+- [K3s Overview/Showcase](https://www.youtube.com/watch?v=WYPd7i15XOg&feature=share)
