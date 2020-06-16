@@ -53,7 +53,8 @@ Deploying Kubernetes on Raspberry Pi cluster
 - [Encrypting secrets](https://www.youtube.com/watch?v=BBTadK3cAww) using Ansible's own Vault (not to be confused with Hashicorp Vault)
 - [Retrieving secrets](https://docs.ansible.com/ansible/latest/plugins/lookup/hashi_vault.html) using Hashicorp Vault
 - [Raspberry Pi Dramble](https://github.com/geerlingguy/raspberry-pi-dramble/tree/master/roles)
-- [KubeADM Ansible Repo](https://github.com/kairen/kubeadm-ansible)
+- ~~[KubeADM Ansible Repo](https://github.com/kairen/kubeadm-ansible)~~
+  - Decided to go with K3s instead of mainline Kubernetes
 - [K3s Overview/Showcase](https://www.youtube.com/watch?v=WYPd7i15XOg&feature=share)
 - [Ingress Controllers explained](https://www.youtube.com/watch?v=GhZi4DxaxxE)
 - [Kubernetes for the common developer](https://www.youtube.com/watch?v=lAyL9HKx8cQ)
