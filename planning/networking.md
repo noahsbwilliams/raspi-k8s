@@ -14,6 +14,9 @@
 
 ### Options
 
+- Create tunnels using [Inlets]
+- Create tunnels using reverse SSH tunneling with [SSH container](https://hub.docker.com/r/linuxserver/openssh-server)
+
 ### Select
 
 ### Execute
