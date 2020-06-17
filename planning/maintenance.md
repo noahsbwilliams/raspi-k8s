@@ -8,6 +8,10 @@
 
 ### Information
 
+- Currently each of the four server nodes run the Ubuntu 20.04 LTS 64-bit operating system
+- Each has an `ubuntu` user with sudo privileges
+- SSH is enabled; root login disabled.
+
 ### Options
 
 ### Select
