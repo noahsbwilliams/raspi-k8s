@@ -21,6 +21,23 @@
 
 ### Options
 
+- Purchase storage drives for each node
+  - Use distributed storage solution Ceph
+    - Cost: $680
+    - Pros: High availability
+    - Cons: Cost
+- Purchase storage drive for one node
+  - Cost: $170
+  - Setup NFS share on one node
+    - Pros: Cost, standardization
+    - Cons: Less availability, less-than-ideal security
+  - Setup Ceph with single node persistence
+    - Pros: Cost, ease of use
+    - Cons: Less availability
+- Setup external NAS for storage
+  - Pros: Simplicity, utility for other projects
+  - Cons: Cost (potentially), lack of physical portability
+
 ### Select
 
 ### Execute
