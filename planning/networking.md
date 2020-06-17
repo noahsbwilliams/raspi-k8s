@@ -15,6 +15,10 @@
 ### Options
 
 - Create tunnels using [Inlets]
+  - Pros: Simple, designed just for HTTP(S) traffic.
+  - Cons:
+    - L7 only; just works for HTTP(S), supporting no other protocols.
+    - For proper security, TLS termination seems to be necessary at relay node. This requires decryption and re-encryption to secure the whole chain.
 - Create tunnels using reverse SSH tunneling with [SSH container](https://hub.docker.com/r/linuxserver/openssh-server)
 
 ### Select
