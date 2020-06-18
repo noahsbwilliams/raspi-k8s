@@ -40,6 +40,8 @@
 
 ### Select
 
+- Purchase storage drive for one node, setup Ceph for use on said node
+
 ### Execute
 
 ### Evaluate
