@@ -4,7 +4,7 @@ Deploying Kubernetes on Raspberry Pi cluster
 
 ## Functions
 
-### Teach Noah how to use Kubernetes from scratch
+### Teach Noah how to use Kubernetes
 
 - Install
 - Setup
