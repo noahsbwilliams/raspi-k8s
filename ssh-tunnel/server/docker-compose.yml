@@ -31,8 +31,7 @@ services:
       PUID: '1000'
       PGID: '1000'
       TZ: 'USA/Oregon'
-      PUBLIC_KEY: 'yourpublickey' #optional
-      PUBLIC_KEY_FILE: './id_ecdsa.pub' #optional
+      PUBLIC_KEY: 'ecdsa-sha2-nistp256 AAAAE2VjZHNhLXNoYTItbmlzdHAyNTYAAAAIbmlzdHAyNTYAAABBBDYWsUWt1ywdOlAD5sYQvlW/SyEsvv6BIm+vjoLaFruHtPVytmRvG3mz0ItGrUYZzp7iiDvQwR3YQxgFhwmW6wY=' #optional
       SUDO_ACCESS: 'false' #optional
       # PASSWORD_ACCESS: 'false' #optional
       # USER_PASSWORD: 'password' #optional
