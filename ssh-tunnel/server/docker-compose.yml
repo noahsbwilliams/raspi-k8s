@@ -37,8 +37,8 @@ services:
       # USER_PASSWORD: 'password' #optional
       # USER_PASSWORD_FILE: '/path/to/file' #optional
       USER_NAME: 'proxy' #optional
-    # volumes:
-    #   - /path/to/appdata/config:/config
+    volumes:
+      - ./config/:/config
     ports:
       - '2222:2222'
     restart: unless-stopped
