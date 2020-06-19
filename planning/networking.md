@@ -36,6 +36,8 @@
 
 ### Problem
 
+- There is currently no direct way to allow network ingress to control the Kubernetes nodes.
+
 ### Information
 
 ### Options
