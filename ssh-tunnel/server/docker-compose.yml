@@ -16,7 +16,7 @@ services:
       # PASSWORD_ACCESS: 'false' #optional
       # USER_PASSWORD: 'password' #optional
       # USER_PASSWORD_FILE: '/path/to/file' #optional
-      USER_NAME: 'linuxserver.io' #optional
+      USER_NAME: 'proxy' #optional
     volumes:
       - /path/to/appdata/config:/config
     ports:
