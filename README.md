@@ -46,7 +46,7 @@ Deploying Kubernetes on Raspberry Pi cluster
 
 ### Potential Tools (Uncategorized)
 
-- [~~Ansible Hostname Changer](https://github.com/codylane/ansible-playbook-change-hostname)~~
+- ~~[Ansible Hostname Changer](https://github.com/codylane/ansible-playbook-change-hostname)~~
   - ~~[Official Docs](https://docs.ansible.com/ansible/latest/modules/hostname_module.html)~~
   - ~~[Changing Hostname the Manual Way](https://www.howtogeek.com/167195/how-to-change-your-raspberry-pi-or-other-linux-devices-hostname/)~~
   - Decided against changing hostnames with Ansible as it added more complication than it subtracted.
