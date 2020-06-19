@@ -20,5 +20,7 @@ services:
     volumes:
       - /path/to/appdata/config:/config
     ports:
-      - 2222:2222
+      - '2222:2222'
+      - '80:8080'
+      - '443:4443'
     restart: unless-stopped
