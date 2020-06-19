@@ -18,6 +18,7 @@ services:
       USER_NAME: 'proxy' #optional
     volumes:
       - ./config/:/config
+      - ./sshd_config/:/etc/sshd_config
     ports:
       - '2222:2222'
       - '80:8080'
