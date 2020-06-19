@@ -1,6 +1,6 @@
 # Networking for Raspberry Pi Kubernetes project
 
-## LAN Ingress
+## LAN Ingress (Services)
 
 ### Problem
 
