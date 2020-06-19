@@ -59,7 +59,8 @@ Deploying Kubernetes on Raspberry Pi cluster
 - [K3s Overview/Showcase](https://www.youtube.com/watch?v=WYPd7i15XOg&feature=share)
 - [Ingress Controllers explained](https://www.youtube.com/watch?v=GhZi4DxaxxE)
 - [Kubernetes for the common developer](https://www.youtube.com/watch?v=lAyL9HKx8cQ)
-- [Persistent Kubernetes storage application](https://github.com/longhorn/longhorn)
+- ~~[Persistent Kubernetes storage application](https://github.com/longhorn/longhorn)~~
+  - No ARM64 support, not an option :(
 - [Ceph Filesystem](https://hub.docker.com/r/ceph/ceph)
   - Supports both x86-64 and ARM64
 - NFS Setup tutorials
