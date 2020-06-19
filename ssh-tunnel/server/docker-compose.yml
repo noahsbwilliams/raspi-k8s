@@ -5,7 +5,7 @@ services:
   openssh-server:
     image: linuxserver/openssh-server
     container_name: openssh-server
-    hostname: openssh-server #optional
+    hostname: proxy #optional
     environment:
       PUID: '1000'
       PGID: '1000'
