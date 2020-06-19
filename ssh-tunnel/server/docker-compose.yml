@@ -32,7 +32,7 @@ services:
       PGID: '1000'
       TZ: 'USA/Oregon'
       PUBLIC_KEY: 'yourpublickey' #optional
-      PUBLIC_KEY_FILE: '/path/to/file' #optional
+      PUBLIC_KEY_FILE: './id_ecdsa.pub' #optional
       SUDO_ACCESS: 'false' #optional
       # PASSWORD_ACCESS: 'false' #optional
       # USER_PASSWORD: 'password' #optional
