@@ -20,5 +20,5 @@ services:
       remote_bind_addresses: [('54.245.187.111', 80)]
       local_bind_addresses: [('127.0.0.1', 3000)]
     volumes:
-      - ./sshd_server_test/keys:/private.key
+      - ~/.ssh/id_ecdsa.pub:/private.key
     restart: always
