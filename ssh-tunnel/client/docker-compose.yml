@@ -21,4 +21,4 @@ services:
       local_bind_addresses: [('127.0.0.1', 3000)]
     volumes:
       - ~/.ssh/id_ecdsa.pub:/private.key
-    restart: always
+    restart: unless-stopped
