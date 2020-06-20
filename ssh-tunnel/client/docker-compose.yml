@@ -14,7 +14,7 @@ services:
       #- ssh_password=This_Is_a_SSH_P4SSW0RD
       ssh_private_key_password: ${PRIVATE_KEY_PASS}
       remote_bind_addresses: '[("54.245.187.111", 80)]'
-      local_bind_addresses: '[("127.0.0.1", 80)]'
+      local_bind_addresses: '[("0.0.0.0", 80)]'
     volumes:
       - ~/.ssh/id_ecdsa:/private.key
     restart: unless-stopped
