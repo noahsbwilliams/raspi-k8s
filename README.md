@@ -71,3 +71,6 @@ Deploying Kubernetes on Raspberry Pi cluster
   - Ultimately decided against as the open source version wasn't suitable for a pseudo-production environment due to a lack of L4 TCP tunneling support
 - [SSH tunneling container](https://github.com/Jossec101/SSHTunneller)
 - [AutoSSH (standard) Container](https://github.com/jnovack/docker-autossh)
+- [Ceph Setup Guide on Kubernetes](https://www.youtube.com/watch?v=wIRMxl_oEMM)
+  - Uses tool Rook which Kubernetifies Ceph
+  - Includes simple means to specify which nodes are used for storage & what the mount path is on them
