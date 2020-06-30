@@ -75,3 +75,6 @@ Deploying Kubernetes on Raspberry Pi cluster
   - Uses tool Rook which Kubernetifies Ceph
   - Includes simple means to specify which nodes are used for storage & what the mount path is on them
 - [Rook explained under the hood](https://code.rothanaheavyengineering.com/noahsbwilliams/raspi-k8s)
+- `systemd` Services Review Tutorial
+  - [Video](https://www.youtube.com/watch?v=fYQBvjYQ63U)
+  - [Written](https://www.devdungeon.com/content/creating-systemd-service-files) 
