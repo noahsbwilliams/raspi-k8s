@@ -74,3 +74,4 @@ Deploying Kubernetes on Raspberry Pi cluster
 - [Ceph Setup Guide on Kubernetes](https://www.youtube.com/watch?v=wIRMxl_oEMM)
   - Uses tool Rook which Kubernetifies Ceph
   - Includes simple means to specify which nodes are used for storage & what the mount path is on them
+- [Rook explained under the hood](https://code.rothanaheavyengineering.com/noahsbwilliams/raspi-k8s)
