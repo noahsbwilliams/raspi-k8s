@@ -78,3 +78,7 @@ Deploying Kubernetes on Raspberry Pi cluster
   - [Mounting](https://vitux.com/how-to-manually-mount-unmount-a-usb-device-on-ubuntu/)
   - [Formatting](https://www.techwalla.com/articles/how-to-format-a-usb-flash-drive-in-linux)
   - [Modifying the `fstab`](https://www.howtogeek.com/howto/38125/htg-explains-what-is-the-linux-fstab-and-how-does-it-work/)
+- [Rook explained under the hood](https://code.rothanaheavyengineering.com/noahsbwilliams/raspi-k8s)
+- `systemd` Services Review Tutorial
+  - [Video](https://www.youtube.com/watch?v=fYQBvjYQ63U)
+  - [Written](https://www.devdungeon.com/content/creating-systemd-service-files) 
