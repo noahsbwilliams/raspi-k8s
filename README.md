@@ -74,3 +74,7 @@ Deploying Kubernetes on Raspberry Pi cluster
 - [Ceph Setup Guide on Kubernetes](https://www.youtube.com/watch?v=wIRMxl_oEMM)
   - Uses tool Rook which Kubernetifies Ceph
   - Includes simple means to specify which nodes are used for storage & what the mount path is on them
+- Mounting & Formatting Drive on Linux Review Tutorials
+  - [Mounting](https://vitux.com/how-to-manually-mount-unmount-a-usb-device-on-ubuntu/)
+  - [Formatting](https://www.techwalla.com/articles/how-to-format-a-usb-flash-drive-in-linux)
+  - [Modifying the `fstab`](https://www.howtogeek.com/howto/38125/htg-explains-what-is-the-linux-fstab-and-how-does-it-work/)
