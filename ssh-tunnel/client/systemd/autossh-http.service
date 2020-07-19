@@ -1,0 +1,17 @@
+# Thanks to DevDungeon for the systemd refresher https://www.devdungeon.com/content/creating-systemd-service-files
+
+# To enable automatic persistent tunneling, put this file in /etc/systemd/system/ & change the domain to that of your relay server
+
+[Unit]
+Description=autossh-http
+After=network.target
+
+[Service]
+Type=simple
+User=ubuntu
+WorkingDirectory=/home/ubuntu
+ExecStart=/usr/bin/autossh -R 80:127.0.0.1:80 -N root@domain.com
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
