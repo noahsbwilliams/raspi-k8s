@@ -4,7 +4,7 @@ version: '3.7'
 services:
   proxy:
     image: linuxserver/openssh-server
-    container_name: proxy_ssh
+    container_name: proxy
     hostname: proxy #optional
     environment:
       PUID: '1000'
@@ -18,7 +18,6 @@ services:
       USER_NAME: 'proxy' #optional
     volumes:
       - ./config/:/config
-      - ./sshd_config/:/etc/ssh/sshd_config
     ports:
       - '2222:2222'
       - '80:8080'
