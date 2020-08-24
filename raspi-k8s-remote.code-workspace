@@ -1,0 +1,9 @@
+{
+	"folders": [
+		{
+			"uri": "vscode-remote://ssh-remote+control-tower/home/ubuntu/raspi-k8s"
+		}
+	],
+	"remoteAuthority": "ssh-remote+control-tower",
+	"settings": {}
+}
