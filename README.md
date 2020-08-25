@@ -96,6 +96,7 @@ Deploying Kubernetes on Raspberry Pi cluster
   - Big thanks to [BattlePope](https://www.reddit.com/user/BattlePope) for recommending this
   - Ultimately decided against as the open source version wasn't suitable for a pseudo-production environment due to a lack of L4 TCP tunneling support
 - [SSH tunneling container](https://github.com/Jossec101/SSHTunneller)
+  - Could be suitable in a future revision that incluses built-in tunneling support
 - [AutoSSH (standard) Container](https://github.com/jnovack/docker-autossh)
 
 #### Peripheral
