@@ -61,9 +61,10 @@ Deploying Kubernetes on Raspberry Pi cluster
 - ~~[Rancher Longhorn](https://github.com/longhorn/longhorn)~~
   - No ARM64 support, not an option :(
 
-- NFS Setup tutorials
+- ~~NFS Storage~~
   - [DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-set-up-an-nfs-mount-on-ubuntu-20-04)
   - [Rancher](https://rancher.com/docs/rancher/v2.x/en/cluster-admin/volumes-and-storage/examples/nfs/)
+  - Deemed unsuitable due to lack of redundancy
 
 - Ceph Filesystem
   - [Ceph Filesystem](https://hub.docker.com/r/ceph/ceph)
