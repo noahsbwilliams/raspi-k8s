@@ -44,7 +44,10 @@ Deploying Kubernetes on Raspberry Pi cluster
   - Transport Layer Security
   - Secret storage
 
-### Potential Tools (Uncategorized)
+### Potential Tools
+
+
+#### Node Provisioning
 
 - ~~[Ansible Hostname Changer](https://github.com/codylane/ansible-playbook-change-hostname)~~
   - ~~[Official Docs](https://docs.ansible.com/ansible/latest/modules/hostname_module.html)~~
@@ -52,6 +55,32 @@ Deploying Kubernetes on Raspberry Pi cluster
   - Decided against changing hostnames with Ansible as it added more complication than it subtracted.
 - [Ansible Hosts documentation](https://docs.ansible.com/ansible/latest/user_guide/intro_inventory.html)
 - [Encrypting secrets](https://www.youtube.com/watch?v=BBTadK3cAww) using Ansible's own Vault (not to be confused with Hashicorp Vault)
+
+#### Storage
+
+- ~~[Rancher Longhorn](https://github.com/longhorn/longhorn)~~
+  - No ARM64 support, not an option :(
+
+- NFS Setup tutorials
+  - [DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-set-up-an-nfs-mount-on-ubuntu-20-04)
+  - [Rancher](https://rancher.com/docs/rancher/v2.x/en/cluster-admin/volumes-and-storage/examples/nfs/)
+
+- Ceph Filesystem
+  - [Ceph Filesystem](https://hub.docker.com/r/ceph/ceph)
+    - Supports both x86-64 and ARM64
+  - [Ceph Setup Guide on Kubernetes](https://www.youtube.com/watch?v=wIRMxl_oEMM)
+    - Uses tool Rook which Kubernetifies Ceph
+    - Includes simple means to specify which nodes are used for storage & what the mount path is on them
+  - [Rook/Ceph yaml examples](https://github.com/rook/rook/tree/release-1.3/cluster/examples/kubernetes/ceph)
+  - [Rook explained under the hood](https://code.rothanaheavyengineering.com/noahsbwilliams/raspi-k8s)
+
+- Mounting & Formatting Drives on Linux Review
+  - [Mounting](https://vitux.com/how-to-manually-mount-unmount-a-usb-device-on-ubuntu/)
+  - [Formatting](https://www.techwalla.com/articles/how-to-format-a-usb-flash-drive-in-linux)
+  - [Modifying the `fstab`](https://www.howtogeek.com/howto/38125/htg-explains-what-is-the-linux-fstab-and-how-does-it-work/)
+
+#### Secrets
+
 - [Retrieving secrets](https://docs.ansible.com/ansible/latest/plugins/lookup/hashi_vault.html) using Hashicorp Vault
 - [Raspberry Pi Dramble](https://github.com/geerlingguy/raspberry-pi-dramble/tree/master/roles)
 - ~~[KubeADM Ansible Repo](https://github.com/kairen/kubeadm-ansible)~~
@@ -59,27 +88,18 @@ Deploying Kubernetes on Raspberry Pi cluster
 - [K3s Overview/Showcase](https://www.youtube.com/watch?v=WYPd7i15XOg&feature=share)
 - [Ingress Controllers explained](https://www.youtube.com/watch?v=GhZi4DxaxxE)
 - [Kubernetes for the common developer](https://www.youtube.com/watch?v=lAyL9HKx8cQ)
-- ~~[Persistent Kubernetes storage application](https://github.com/longhorn/longhorn)~~
-  - No ARM64 support, not an option :(
-- [Ceph Filesystem](https://hub.docker.com/r/ceph/ceph)
-  - Supports both x86-64 and ARM64
-- NFS Setup tutorials
-  - [DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-set-up-an-nfs-mount-on-ubuntu-20-04)
-  - [Rancher](https://rancher.com/docs/rancher/v2.x/en/cluster-admin/volumes-and-storage/examples/nfs/)
+
+
+#### Networking
+
 - ~~[Inlets](https://github.com/inlets/inlets), a cloud-native tunneling system supporting ARM64~~
   - Big thanks to [BattlePope](https://www.reddit.com/user/BattlePope) for recommending this
   - Ultimately decided against as the open source version wasn't suitable for a pseudo-production environment due to a lack of L4 TCP tunneling support
 - [SSH tunneling container](https://github.com/Jossec101/SSHTunneller)
 - [AutoSSH (standard) Container](https://github.com/jnovack/docker-autossh)
-- [Ceph Setup Guide on Kubernetes](https://www.youtube.com/watch?v=wIRMxl_oEMM)
-  - Uses tool Rook which Kubernetifies Ceph
-  - Includes simple means to specify which nodes are used for storage & what the mount path is on them
-- [Rook/Ceph yaml examples](https://github.com/rook/rook/tree/release-1.3/cluster/examples/kubernetes/ceph)
-- [Rook explained under the hood](https://code.rothanaheavyengineering.com/noahsbwilliams/raspi-k8s)
-- Mounting & Formatting Drive on Linux Review Tutorials
-  - [Mounting](https://vitux.com/how-to-manually-mount-unmount-a-usb-device-on-ubuntu/)
-  - [Formatting](https://www.techwalla.com/articles/how-to-format-a-usb-flash-drive-in-linux)
-  - [Modifying the `fstab`](https://www.howtogeek.com/howto/38125/htg-explains-what-is-the-linux-fstab-and-how-does-it-work/)
+
+#### Peripheral
+
 - `systemd` Services Review Tutorial
   - [Video](https://www.youtube.com/watch?v=fYQBvjYQ63U)
   - [Written](https://www.devdungeon.com/content/creating-systemd-service-files) 
