@@ -62,14 +62,6 @@ Deploying Kubernetes on Raspberry Pi cluster
 
 #### Storage
 
-- ~~[Rancher Longhorn](https://github.com/longhorn/longhorn)~~
-  - No ARM64 support, not an option :(
-
-- ~~NFS Storage~~
-  - [DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-set-up-an-nfs-mount-on-ubuntu-20-04)
-  - [Rancher](https://rancher.com/docs/rancher/v2.x/en/cluster-admin/volumes-and-storage/examples/nfs/)
-  - Deemed unsuitable due to lack of redundancy
-
 - Ceph Filesystem ✅
   - [Ceph Docker Image](https://hub.docker.com/r/ceph/ceph)
     - Supports both x86-64 and ARM64
@@ -78,6 +70,14 @@ Deploying Kubernetes on Raspberry Pi cluster
     - Includes simple means to specify which nodes are used for storage & what the mount path is on them
   - [Rook/Ceph yaml examples](https://github.com/rook/rook/tree/release-1.3/cluster/examples/kubernetes/ceph)
   - Seems to be the industry standard in cloud "block" storage - highly-available virtual disks for VPS in DigitalOcean, AWS
+
+- ~~[Rancher Longhorn](https://github.com/longhorn/longhorn)~~
+  - No ARM64 support, not an option :(
+
+- ~~NFS Storage~~
+  - [DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-set-up-an-nfs-mount-on-ubuntu-20-04)
+  - [Rancher](https://rancher.com/docs/rancher/v2.x/en/cluster-admin/volumes-and-storage/examples/nfs/)
+  - Deemed unsuitable due to lack of redundancy
 
 - Mounting & Formatting Drives on Linux Review
   - [Mounting](https://vitux.com/how-to-manually-mount-unmount-a-usb-device-on-ubuntu/)
