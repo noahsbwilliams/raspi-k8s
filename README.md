@@ -66,14 +66,14 @@ Deploying Kubernetes on Raspberry Pi cluster
   - [Rancher](https://rancher.com/docs/rancher/v2.x/en/cluster-admin/volumes-and-storage/examples/nfs/)
   - Deemed unsuitable due to lack of redundancy
 
-- Ceph Filesystem
-  - [Ceph Filesystem](https://hub.docker.com/r/ceph/ceph)
+- Ceph Filesystem ✅
+  - [Ceph Docker Image](https://hub.docker.com/r/ceph/ceph)
     - Supports both x86-64 and ARM64
   - [Ceph Setup Guide on Kubernetes](https://www.youtube.com/watch?v=wIRMxl_oEMM)
     - Uses tool Rook which Kubernetifies Ceph
     - Includes simple means to specify which nodes are used for storage & what the mount path is on them
   - [Rook/Ceph yaml examples](https://github.com/rook/rook/tree/release-1.3/cluster/examples/kubernetes/ceph)
-  - [Rook explained under the hood](https://code.rothanaheavyengineering.com/noahsbwilliams/raspi-k8s)
+  - Seems to be the industry standard in cloud "block" storage - highly-available virtual disks for VPS in DigitalOcean, AWS
 
 - Mounting & Formatting Drives on Linux Review
   - [Mounting](https://vitux.com/how-to-manually-mount-unmount-a-usb-device-on-ubuntu/)
