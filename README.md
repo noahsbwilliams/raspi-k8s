@@ -49,6 +49,7 @@ Deploying Kubernetes on Raspberry Pi cluster
 
 #### Node Provisioning
 
+- [K3s Overview/Showcase](https://www.youtube.com/watch?v=WYPd7i15XOg) ✅
 - ~~[Ansible Hostname Changer](https://github.com/codylane/ansible-playbook-change-hostname)~~
   - ~~[Official Docs](https://docs.ansible.com/ansible/latest/modules/hostname_module.html)~~
   - ~~[Changing Hostname the Manual Way](https://www.howtogeek.com/167195/how-to-change-your-raspberry-pi-or-other-linux-devices-hostname/)~~
@@ -86,13 +87,11 @@ Deploying Kubernetes on Raspberry Pi cluster
 #### Secrets
 
 - [Retrieving secrets](https://docs.ansible.com/ansible/latest/plugins/lookup/hashi_vault.html) using Hashicorp Vault
-- [K3s Overview/Showcase](https://www.youtube.com/watch?v=WYPd7i15XOg&feature=share)
-- [Ingress Controllers explained](https://www.youtube.com/watch?v=GhZi4DxaxxE)
-- [Kubernetes for the common developer](https://www.youtube.com/watch?v=lAyL9HKx8cQ)
 
 
 #### Networking
 
+- [Ingress Controllers explained](https://www.youtube.com/watch?v=GhZi4DxaxxE)
 - ~~[Inlets](https://github.com/inlets/inlets), a cloud-native tunneling system supporting ARM64~~
   - Big thanks to [BattlePope](https://www.reddit.com/user/BattlePope) for recommending this
   - Ultimately decided against as the open source version wasn't suitable for a pseudo-production environment due to a lack of L4 TCP tunneling support
@@ -106,3 +105,5 @@ Deploying Kubernetes on Raspberry Pi cluster
   - [Written](https://www.devdungeon.com/content/creating-systemd-service-files) 
 
 #### Not yet categorized
+
+- [Kubernetes for the common developer](https://www.youtube.com/watch?v=lAyL9HKx8cQ)
