@@ -92,6 +92,7 @@ Deploying Kubernetes on Raspberry Pi cluster
 #### Networking
 
 - [Ingress Controllers explained](https://www.youtube.com/watch?v=GhZi4DxaxxE)
+- [Example code of Traefik Ingress Controller](https://docs.traefik.io/user-guides/crd-acme/)
 - ~~[Inlets](https://github.com/inlets/inlets), a cloud-native tunneling system supporting ARM64~~
   - Big thanks to [BattlePope](https://www.reddit.com/user/BattlePope) for recommending this
   - Ultimately decided against as the open source version wasn't suitable for a pseudo-production environment due to a lack of L4 TCP tunneling support
