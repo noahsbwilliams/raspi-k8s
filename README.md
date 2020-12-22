@@ -62,7 +62,13 @@ Deploying Kubernetes on Raspberry Pi cluster
 
 #### Storage
 
-- Ceph Filesystem ✅
+- [Rancher Longhorn](https://github.com/longhorn/longhorn) ✅
+  - Simple, user-friendly solution made by the creators of k3s
+  - Easy automated backups to S3 or NFS
+  - Gained ARM64 support as of [v1.1.0](https://github.com/longhorn/longhorn/releases/tag/v1.1.0) - yay!
+    - ~~No ARM64 support, not an option :(~~
+
+- ~~Ceph Filesystem~~ ❌
   - [Ceph Docker Image](https://hub.docker.com/r/ceph/ceph)
     - Supports both x86-64 and ARM64
   - [Ceph Setup Guide on Kubernetes](https://www.youtube.com/watch?v=wIRMxl_oEMM)
@@ -72,8 +78,6 @@ Deploying Kubernetes on Raspberry Pi cluster
   - [Provisioning Ceph Block Storage](https://rook.io/docs/rook/v1.4/ceph-block.html)
   - Seems to be the industry standard in cloud "block" storage - highly-available virtual disks for VPS in DigitalOcean, AWS
 
-- ~~[Rancher Longhorn](https://github.com/longhorn/longhorn)~~
-  - No ARM64 support, not an option :(
 
 - ~~NFS Storage~~
   - [DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-set-up-an-nfs-mount-on-ubuntu-20-04)
