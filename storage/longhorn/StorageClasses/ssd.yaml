@@ -1,0 +1,18 @@
+---
+# Example taken from https://longhorn.io/docs/0.8.0/examples/storage-class/
+# and https://longhorn.io/docs/1.1.0/volumes-and-nodes/storage-tags/
+kind: StorageClass
+apiVersion: storage.k8s.io/v1
+metadata:
+  name: longhorn-ssd
+provisioner: driver.longhorn.io
+allowVolumeExpansion: true
+parameters:
+  numberOfReplicas: "3"
+  staleReplicaTimeout: "480" # 8 hours in minutes
+  diskSelector: "ssd"
+  nodeSelector: "storage"
+
+#  recurringJobs: '[{"name":"snap", "task":"snapshot", "cron":"*/1 * * * *", "retain":1},
+#                   {"name":"backup", "task":"backup", "cron":"*/2 * * * *", "retain":1,
+#                    "labels": {"interval":"2m"}}]'
