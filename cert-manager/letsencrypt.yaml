@@ -1,0 +1,41 @@
+# Adapted from: https://crt.the-mori.com/programming/2020-11-20-traefik-v2-letsencrypt-cert-manager-raspberry-pi-4-kubernetes
+
+apiVersion: cert-manager.io/v1
+kind: ClusterIssuer
+metadata:
+  name: letsencrypt-staging
+spec:
+  acme:
+    # You must replace this email address with your own.
+    # Let's Encrypt will use this to contact you about expiring
+    # certificates, and issues related to your account.
+    email: public@noahsbwilliams.com
+    server: https://acme-staging-v02.api.letsencrypt.org/directory
+    privateKeySecretRef:
+      # Secret resource used to store the account's private key.
+      name: issuer-account-key-for-something-very-elaborate-you-dont-know
+    # Add a single challenge solver, HTTP01
+    solvers:
+      - http01:
+          ingress:
+            class: traefik-cert-manager
+---
+apiVersion: cert-manager.io/v1alpha2
+kind: ClusterIssuer
+metadata:
+  name: letsencrypt-prod
+spec:
+  acme:
+    # You must replace this email address with your own.
+    # Let's Encrypt will use this to contact you about expiring
+    # certificates, and issues related to your account.
+    email: public@noahsbwilliams.com
+    server: https://acme-v02.api.letsencrypt.org/directory
+    privateKeySecretRef:
+      # Secret resource used to store the account's private key.
+      name: issuer-account-key-for-something-very-elaborate-you-dont-know
+    # Add a single challenge solver, HTTP01
+    solvers:
+      - http01:
+          ingress:
+            class: traefik-cert-manager
