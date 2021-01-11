@@ -32,17 +32,7 @@ Deploying Kubernetes on Raspberry Pi cluster
   - [x] POE Switch
   - [x] Power strip
 
-### Software
 
-- Standardization tools
-- Remote command tools
-- Maintenance tools
-- Storage management tools
-- Firewall buster tools
-  - Virtual computers somewhere else
-- Security tools
-  - Transport Layer Security
-  - Secret storage
 
 ### Potential Tools
 

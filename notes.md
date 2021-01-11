@@ -1,5 +1,18 @@
 # Project Notes
 
+## Software Categories
+
+- Standardization tools
+- Remote command tools
+- Maintenance tools
+- Storage management tools
+- Firewall buster tools
+  - Virtual computers somewhere else
+- Security tools
+  - Transport Layer Security
+  - Secret storage
+
+---
 ## Storage
 
 - [Rancher Longhorn](https://github.com/longhorn/longhorn) ✅
