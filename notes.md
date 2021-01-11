@@ -61,6 +61,7 @@
 - `systemd` Services Review Tutorial
   - [Video](https://www.youtube.com/watch?v=fYQBvjYQ63U)
   - [Written](https://www.devdungeon.com/content/creating-systemd-service-files)
+- [Kubernetes for the common developer](https://www.youtube.com/watch?v=lAyL9HKx8cQ), a good tutorial for the uninitiated dev
 
 ---
 

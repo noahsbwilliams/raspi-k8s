@@ -32,10 +32,5 @@ Deploying Kubernetes on Raspberry Pi cluster
   - [x] POE Switch
   - [x] Power strip
 
-#### Peripheral
-
-
-
 #### Not yet categorized
 
-- [Kubernetes for the common developer](https://www.youtube.com/watch?v=lAyL9HKx8cQ)
