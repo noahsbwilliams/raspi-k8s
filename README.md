@@ -31,6 +31,3 @@ Deploying Kubernetes on Raspberry Pi cluster
 - Electricity
   - [x] POE Switch
   - [x] Power strip
-
-#### Not yet categorized
-
