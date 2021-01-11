@@ -56,6 +56,12 @@
 - [Hashicorp Vault](https://www.vaultproject.io/docs) seems to be the thing to use
 - [Retrieving secrets](https://docs.ansible.com/ansible/latest/plugins/lookup/hashi_vault.html) using Hashicorp Vault
 
+## Miscellaneous
+
+- `systemd` Services Review Tutorial
+  - [Video](https://www.youtube.com/watch?v=fYQBvjYQ63U)
+  - [Written](https://www.devdungeon.com/content/creating-systemd-service-files)
+
 ---
 
 ## Discarded Tech
