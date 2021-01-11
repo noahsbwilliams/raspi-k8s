@@ -69,13 +69,6 @@ Deploying Kubernetes on Raspberry Pi cluster
     - ~~No ARM64 support, not an option :(~~
 
 
-
-
-- ~~NFS Storage~~
-  - [DigitalOcean](https://www.digitalocean.com/community/tutorials/how-to-set-up-an-nfs-mount-on-ubuntu-20-04)
-  - [Rancher](https://rancher.com/docs/rancher/v2.x/en/cluster-admin/volumes-and-storage/examples/nfs/)
-  - Deemed unsuitable due to lack of redundancy
-
 - Mounting & Formatting Drives on Linux Review
   - [Mounting](https://vitux.com/how-to-manually-mount-unmount-a-usb-device-on-ubuntu/)
   - [Formatting](https://www.techwalla.com/articles/how-to-format-a-usb-flash-drive-in-linux)
