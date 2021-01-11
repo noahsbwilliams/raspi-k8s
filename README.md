@@ -51,11 +51,7 @@ Deploying Kubernetes on Raspberry Pi cluster
 
 #### Storage
 
-- [Rancher Longhorn](https://github.com/longhorn/longhorn) ✅
-  - Simple, user-friendly solution made by the creators of k3s
-  - Easy automated backups to S3 or NFS
-  - Gained ARM64 support as of [v1.1.0](https://github.com/longhorn/longhorn/releases/tag/v1.1.0) - yay!
-    - ~~No ARM64 support, not an option :(~~
+
 
 
 - Mounting & Formatting Drives on Linux Review

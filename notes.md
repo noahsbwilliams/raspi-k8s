@@ -1,5 +1,12 @@
 # Project Notes
 
+## Storage
+
+- [Rancher Longhorn](https://github.com/longhorn/longhorn) ✅
+  - Simple, user-friendly solution made by the creators of k3s
+  - Easy automated backups to S3 or NFS
+  - Gained ARM64 support as of [v1.1.0](https://github.com/longhorn/longhorn/releases/tag/v1.1.0) - yay!
+    - ~~No ARM64 support, not an option :(~~
 ## Node Provisioning & Maintenance
 
 - [K3s Kubernetes Distro](https://www.youtube.com/watch?v=WYPd7i15XOg) ✅
