@@ -1,4 +1,3 @@
 # Raspi-K8s
 
-Deploying Kubernetes on Raspberry Pi cluster
-
+Production-grade, on-prem Kubernetes - batteries included.
