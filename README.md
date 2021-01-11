@@ -32,23 +32,8 @@ Deploying Kubernetes on Raspberry Pi cluster
   - [x] POE Switch
   - [x] Power strip
 
-
-
-### Potential Tools
-
-
-
-
-#### Storage
-
-
-
-
-
-
 #### Secrets
 
-- [Retrieving secrets](https://docs.ansible.com/ansible/latest/plugins/lookup/hashi_vault.html) using Hashicorp Vault
 
 
 

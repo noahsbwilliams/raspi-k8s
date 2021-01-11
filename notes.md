@@ -51,6 +51,10 @@
   - Could be suitable in a future revision that includes built-in tunneling support
 - [AutoSSH (standard) Container](https://github.com/jnovack/docker-autossh)
 
+## Secrets Management
+
+- [Hashicorp Vault](https://www.vaultproject.io/docs) seems to be the thing to use
+- [Retrieving secrets](https://docs.ansible.com/ansible/latest/plugins/lookup/hashi_vault.html) using Hashicorp Vault
 
 ---
 
