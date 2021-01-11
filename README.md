@@ -44,10 +44,7 @@ Deploying Kubernetes on Raspberry Pi cluster
 
 
 
-- Mounting & Formatting Drives on Linux Review
-  - [Mounting](https://vitux.com/how-to-manually-mount-unmount-a-usb-device-on-ubuntu/)
-  - [Formatting](https://www.techwalla.com/articles/how-to-format-a-usb-flash-drive-in-linux)
-  - [Modifying the `fstab`](https://www.howtogeek.com/howto/38125/htg-explains-what-is-the-linux-fstab-and-how-does-it-work/)
+
 
 #### Secrets
 

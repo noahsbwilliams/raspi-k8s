@@ -13,6 +13,7 @@
   - Secret storage
 
 ---
+
 ## Storage
 
 - [Rancher Longhorn](https://github.com/longhorn/longhorn) ✅
@@ -20,6 +21,11 @@
   - Easy automated backups to S3 or NFS
   - Gained ARM64 support as of [v1.1.0](https://github.com/longhorn/longhorn/releases/tag/v1.1.0) - yay!
     - ~~No ARM64 support, not an option :(~~
+- Mounting & Formatting Drives on Linux Review
+  - [Mounting](https://vitux.com/how-to-manually-mount-unmount-a-usb-device-on-ubuntu/)
+  - [Formatting](https://www.techwalla.com/articles/how-to-format-a-usb-flash-drive-in-linux)
+  - [Modifying the `fstab`](https://www.howtogeek.com/howto/38125/htg-explains-what-is-the-linux-fstab-and-how-does-it-work/)
+
 ## Node Provisioning & Maintenance
 
 - [K3s Kubernetes Distro](https://www.youtube.com/watch?v=WYPd7i15XOg) ✅
