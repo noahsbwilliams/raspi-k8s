@@ -2,6 +2,25 @@
 
 Production-grade, on-prem Kubernetes - batteries included.
 
+## Software
+
+### Kubernetes Distribution ✅
+
+- [x] [K3s](https://k3s.io)
+### Storage ✅
+
+- [x] [Longhorn](https://longhorn.io)
+
+
+### Networking ✅/❌
+
+- [x] Autossh hacked together for now
+- [ ] More permanent solution under exploration, undecided
+
+### Secrets Management ❌
+
+- [ ] [Vault](https://www.vaultproject.io)
+
 ## Hardware
 
 - [Raspberry Pi 4, 4GB](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/?variant=raspberry-pi-4-model-b-4gb) 🖥
