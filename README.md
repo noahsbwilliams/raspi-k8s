@@ -1,6 +1,6 @@
 # Raspi-K8s
 
-Production-grade, on-prem Kubernetes - batteries included.
+> Production-grade, on-prem Kubernetes - batteries included.
 
 ## Software
 
