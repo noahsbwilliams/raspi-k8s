@@ -14,7 +14,7 @@ Production-grade, on-prem Kubernetes - batteries included.
 
 ### Networking ✅/❌
 
-- [x] Autossh hacked together for now
+- [x] `autossh` hacked together for now
 - [ ] More permanent solution under exploration, undecided
 
 ### Secrets Management ❌
