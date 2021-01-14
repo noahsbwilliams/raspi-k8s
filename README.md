@@ -19,7 +19,8 @@
 
 ### Secrets Management ❌
 
-- [ ] [Vault](https://www.vaultproject.io)
+- [ ] [Vault](https://www.vaultproject.io) (HA mode) use intended
+- [ ] Native Kubernetes [secrets encryption](https://kubernetes.io/docs/tasks/administer-cluster/encrypt-data/) also a possibility
 
 ## Hardware
 
