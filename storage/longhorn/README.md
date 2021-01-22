@@ -1,6 +1,8 @@
 # Primary Storage for Kubernetes cluster
 
-Uses: [Longhorn](https://longhorn.io)
+Uses:
+
+- [Longhorn](https://longhorn.io), a simple, highly-availible storage manager.
 
 Installed with: [Helm Chart](https://github.com/longhorn/longhorn/tree/master/chart)
 
