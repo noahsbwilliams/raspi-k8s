@@ -1,6 +1,6 @@
 # Raspberry Pi Kubernetes
 
-> *Production-grade, on-prem Kubernetes - batteries included.*
+Batteries-included, on-prem Kubernetes
 
 ## Software
 
