@@ -6,7 +6,7 @@ Kubernetes was developed to be cloud-agnostic, but not environment-agnostic. In 
 
 This repository contains:
 
-1. The selection of software used for [Kubernetes](#kubernetes-distribution-), [storage](#storage-) [networking](#networking-), and [secrets management](#secrets-management-).
+1. The selection of software used for [Kubernetes](#kubernetes-distribution-), [storage](#storage-), [networking](#networking-), and [secrets management](#secrets-management-).
 2. The selection of [hardware](#hardware) used in the reference cluster.
 
 ## Software
