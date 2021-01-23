@@ -4,6 +4,11 @@ Batteries-included, on-prem Kubernetes
 
 Kubernetes was developed to be cloud-agnostic, but not environment-agnostic. In trying to spin up our own cluster on-prem, we discovered that basic functions like file storage weren't supported by default. Our intent with this project is to source all components necessary to build an on-prem cluster functionally equivalent to one you might find in a public cloud.
 
+This repository contains:
+
+1. The selection of software used for [Kubernetes](#kubernetes-distribution-), [storage](#storage-) [networking](#networking-), and [secrets management](#secrets-management-).
+2. The selection of [hardware](#hardware) used in the reference cluster.
+
 ## Software
 
 ### Kubernetes Distribution ✅
