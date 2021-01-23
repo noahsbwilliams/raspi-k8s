@@ -1,4 +1,4 @@
-# Raspi-K8s
+# Raspberry Pi Kubernetes
 
 > *Production-grade, on-prem Kubernetes - batteries included.*
 
