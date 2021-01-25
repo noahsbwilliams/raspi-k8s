@@ -6,7 +6,7 @@ Kubernetes was developed to be cloud-agnostic, but not environment-agnostic. In 
 
 This repository contains:
 
-1. The selection of software used for [Kubernetes](#kubernetes-distribution-), [storage](#storage-), [networking](#networking-), and [secrets management](#secrets-management-).
+1. The selection of software used for [Kubernetes](#kubernetes-distribution-), [storage](#storage-), [networking](#networking-), [secrets management](#secrets-management-), and a [GUI](#gui-).
 2. The selection of [hardware](#hardware) used in the reference cluster.
 
 ## Software
@@ -29,6 +29,10 @@ This repository contains:
 - [ ] [Vault](https://www.vaultproject.io) (HA mode) use intended
 - [ ] Native Kubernetes [secrets encryption](https://kubernetes.io/docs/tasks/administer-cluster/encrypt-data/) also a possibility
 
+### GUI ❌
+
+- [ ] [Rancher](https://rancher.com), a simple GUI for Kubernetes
+  - [ ] Pending adoption until Rancher v2 supports Kubernetes v1.20
 ## Hardware
 
 - [x] [Raspberry Pi 4, 4GB](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/?variant=raspberry-pi-4-model-b-4gb) 🖥
