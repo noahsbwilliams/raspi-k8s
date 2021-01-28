@@ -1,0 +1,24 @@
+---
+- hosts: nodes
+  become: true
+  become_user: root
+  tasks:
+    - name: Update apt repositories on all nodes
+      apt: update_cache=yes force_apt_get=yes cache_valid_time=3600
+
+    - name: Upgrade all packages on all nodes
+      apt: upgrade=dist force_apt_get=yes
+
+    - name: Check if a reboot is needed for each node
+      register: reboot_required_file
+      stat: path=/var/run/reboot-required get_md5=no
+
+    - name: Reboot nodes as required
+      reboot:
+        msg: "Reboot initiated for node software upgrades"
+        connect_timeout: 5
+        reboot_timeout: 300
+        pre_reboot_delay: 0
+        post_reboot_delay: 30
+        test_command: uptime
+      when: reboot_required_file.stat.exists
