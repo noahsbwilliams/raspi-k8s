@@ -14,7 +14,7 @@
 
 ### Options
 
-- Create tunnels using [Chisel](https://github.com/jpillora/chisel)
+- Create tunnels using [Chisel](https://github.com/jpillora/chisel) ✅
   - Pros:
     - Plain old, open source L4 tunneler.
     - Supports forwarding by hostname.
