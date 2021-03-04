@@ -21,8 +21,8 @@ This repository contains:
 
 ### Networking ✅/❌
 
-- [x] `autossh` hacked together reverse tunnel for now
-- [ ] More permanent solution under exploration, undecided
+- [x] `autossh` hacked together reverse tunnel for now ✅
+- [ ] [`chisel`](https://github.com/jpillora/chisel) network tunnelling solution under development ❌
 
 ### Secrets Management ❌
 
