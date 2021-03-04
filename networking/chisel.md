@@ -32,10 +32,7 @@ to allow unrestricted network access
 
 ## Authentication
 
-
-Authentication:
-
-Client:
+### Client
 
 ```bash
 chisel client \
@@ -43,7 +40,7 @@ dev.rothanaheavyengineering.com:80:localservice_hostname:80 \
 --auth "noah:noah's-password"
 ```
 
-Server
+### Server
 
 ```bash
 chisel server --authfile
