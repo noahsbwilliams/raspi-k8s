@@ -14,12 +14,20 @@
 
 ### Options
 
-- Create tunnels using [Inlets]
+- Create tunnels using [Chisel](https://github.com/jpillora/chisel)
+  - Pros:
+    - Plain old, open source L4 tunneler.
+    - Supports forwarding by hostname.
+    - Supports TCP & UDP.
+    - Built to work natively in containers.
+  - Cons:
+    - Fairly new; worked on by largely one person.
+- Create tunnels using [Inlets] ❌
   - Pros: Simple, designed just for HTTP(S) traffic.
   - Cons:
     - L7 only; just works for HTTP(S), supporting no other protocols.
     - For proper security, TLS termination seems to be necessary at relay node. This requires decryption and re-encryption to secure the whole chain.
-- Create tunnels using reverse SSH tunneling with [SSH container](https://hub.docker.com/r/linuxserver/openssh-server)
+- Create tunnels using reverse SSH tunneling with [SSH container](https://hub.docker.com/r/linuxserver/openssh-server) ❌
   - Pros:
     - Supports any protocol; is essentially just an encrypted TCP stream.
     - Doesn't require terminating TLS at relay node.
