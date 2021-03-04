@@ -50,9 +50,7 @@ chisel server --authfile
 
 ```json
 {
-  "root:toor": [""],
-  "foo:bar": ["^0.0.0.0:3000$"],
-  "ping:pong": ["^0.0.0.0:[45]000$", "^example.com:80$", "^R:0.0.0.0:7000$"]
+  "code-server:codeserver-password": ["dev.rothanaheavyegineering.com:code-server"]
 }
 ```
 
